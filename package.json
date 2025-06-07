@@ -1,0 +1,17 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd clientSide && npm run dev",
+    "server":"cd serverSide && npm start",
+    "start":"concurrently \"npm run client\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
